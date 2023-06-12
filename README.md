@@ -22,5 +22,5 @@ Dimensionality
 - [ ] Release code.
 
 ## Acknowledgments
-Our code is developed based on [multiLID](https://arxiv.org/pdf/2212.06776.pdf), [DDPM](https://arxiv.org/abs/2006.11239) and [hugginface](https://huggingface.co/). 
+Our code is developed based on [multiLID](https://arxiv.org/pdf/2212.06776.pdf), [DDPM](https://arxiv.org/abs/2006.11239) and [huggingface](https://huggingface.co/). 
 Thanks for their sharing codes and models.
