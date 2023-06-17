@@ -1,5 +1,5 @@
-# Characterizing Diffusion DeepFakes Using multi Local Intrinsic
-Dimensionality
+# Characterizing Diffusion DeepFakes Using multi Local Intrinsic Dimensionality
+
 <b>Peter Lorenz, Ricard Durall, and Janis Keuper</b>
 
 [[Paper (coming soon)](https://arxiv.org)] [[Code (Comming Soon)]()] 
