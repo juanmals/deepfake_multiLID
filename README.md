@@ -1,4 +1,4 @@
-# Characterizing Diffusion DeepFakes Using multi Local Intrinsic Dimensionality
+# Detection Synthetic Diffusion Generated Images Using multi Local Intrinsic Dimensionality
 
 <b>Peter Lorenz, Ricard Durall, and Janis Keuper</b>
 
