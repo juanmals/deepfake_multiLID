@@ -18,12 +18,13 @@ Unlike many existing detection approaches that may only work effectively for GAN
   <img src="./assets/teaser.png" alt="teaser multiLID" />
 </p>
 
-
+The underlying concept of the proposed method is to distinguish models by differences in the density of their internal feature distributions. LID estimates densities in the feature spaces of pre-trained CNNs, by computing fractions over the number of samples in given volumes: ∣volume I∣/∣volume II∣ < 1. The example above shows how this density measure indicates if the selected sample belong (left) or does not belong (right) to a reference distribution.
 
 <p align="center" width="100%">
   <img src="./assets/compresults.png" alt="results" />
 </p>
 
+Limitation of the identification. Left: As described in section 4.1, our experiment is based on the ArtiFact and consists of 8 clean datasets, 6 GAN, and 6 DM-generated images. Center: Identification results on the dataset of LSUN-Bedroom. Right: Transferability results on the dataset of LSUN-Bedroom. The transferability is low, while the identification between clean and synthetic images is accurate. 
 
 
 ## TODO
