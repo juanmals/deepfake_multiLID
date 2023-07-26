@@ -15,7 +15,7 @@ Unlike many existing detection approaches that may only work effectively for GAN
 
 ## multiLID
 <p align="center" width="100%">
-  <img src="./assets/teaser" alt="teaser multiLID" />
+  <img src="./assets/teaser.png" alt="teaser multiLID" />
 </p>
 
 
