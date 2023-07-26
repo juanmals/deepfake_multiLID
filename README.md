@@ -14,10 +14,17 @@ Unlike many existing detection approaches that may only work effectively for GAN
 </p> -->
 
 ## multiLID
-(coming soon)
-<!-- <p align="center">
-<img src="figs/dire.png" width=60%>
-</p> -->
+<p align="center" width="100%">
+  <img src="./assets/teaser" alt="teaser multiLID" />
+</p>
+
+
+
+<p align="center" width="100%">
+  <img src="./assets/compresults.png" alt="results" />
+</p>
+
+
 
 ## TODO
 - [ ] Release code.
