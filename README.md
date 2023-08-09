@@ -63,18 +63,23 @@ Both scripts, save the CiFake dataset in `.pt` format. In case, you want to have
 If you want to convert `.pt` to `.png` then take a look at this script `saveaspng.py`.
 If you want to convert `.png` to `.pt` then take a look at this script `pngtotorch.py`.
 
+Note that depending on the Diffusion Model A100 with 40GB is recommended.
 
 #### Extract Features
 
 ```
 python extract.py --load_json cifake/rn18_cifake_multiLID.json
 ```
+Note that the extraction runs mainly on the CPU. Plenty of RAM is necessary depending on the images size. 
 
 #### Detect Code
 
 ```
 python detect.py --load_json cifake/rn18_rf_cifake_multiLID.json
 ```
+
+Note that only CPU is needed.
+
 
 ## Acknowledgments
 Our code is developed based on [multiLID](https://arxiv.org/pdf/2212.06776.pdf), [DDPM](https://arxiv.org/abs/2006.11239) and [huggingface](https://huggingface.co/). 
