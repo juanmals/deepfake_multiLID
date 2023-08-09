@@ -2,7 +2,7 @@
 
 <b>Peter Lorenz, Ricard Durall, and Janis Keuper</b>
 
-[[Paper](https://arxiv.org/pdf/2307.02347.pdf)] [[Code (Comming Soon)]()] 
+[[Paper](https://arxiv.org/pdf/2307.02347.pdf)]
 
 Please cite:
 
