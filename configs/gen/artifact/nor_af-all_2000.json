@@ -1,0 +1,9 @@
+{
+    "dataset": "af-all",
+    "mode": "nor",
+    "bs": 50,
+    "max_nr": 2000,
+    "save_gen_nor": "nor_af-all_2000.pt",
+    "save_gen_adv": "",
+    "load_json": "configs/gen/artifact/nor_af-all_2000.json"
+}

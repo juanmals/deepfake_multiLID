@@ -1,0 +1,10 @@
+{
+    "dataset": "diffusiondb512",
+    "mode": "adv",
+    "bs": 1,
+    "max_nr": 5000,
+    "fileformat": [".jpg"],
+    "save_gen_nor": "",
+    "save_gen_adv": "adv_large_random_5k_jpg",
+    "load_json": "configs/gen/512/adv_diffusiondb512.json"
+}

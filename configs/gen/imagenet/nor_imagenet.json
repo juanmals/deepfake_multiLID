@@ -1,0 +1,10 @@
+{
+    "dataset": "imagenet",
+    "mode": "nor",
+    "bs": 1,
+    "max_nr": 5000,
+    "fileformat": [".png"],
+    "save_gen_nor": "nor_train_png",
+    "save_gen_adv": "",
+    "load_json": "configs/gen/nor_imagenet"
+}

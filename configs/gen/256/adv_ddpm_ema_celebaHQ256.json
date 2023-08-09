@@ -1,0 +1,9 @@
+{
+    "dataset": "celebaHQ256",
+    "mode": "adv",
+    "bs": 10,
+    "max_nr": 2000,
+    "save_gen_nor": "",
+    "save_gen_adv": "adv_ddpm_ema.pt",
+    "load_json": "configs/gen/256/adv_ddpm_ema_celebaHQ256.json"
+}

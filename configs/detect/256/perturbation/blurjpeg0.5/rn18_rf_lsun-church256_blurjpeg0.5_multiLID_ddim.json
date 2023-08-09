@@ -1,0 +1,15 @@
+{
+    "dataset": "lsun-church256",
+    "dataset_transfer": "lsun-church256",
+    "extract": "wb-multiLID",
+    "model": "rn18",
+    "layers": ["layer4.1.act2", "layer4.0.act1", "layer3.1.act2", "layer3.0.act1", "layer2.1.act2", "layer2.0.act1", "layer1.1.act2", "layer1.0.act1"],
+    "mode": "nor",
+    "clf": "rf",
+    "nrsamples": 2000,
+    "load_extr_nor": "nor_ddim_blurjpeg0.5.pt",
+    "load_extr_adv": "adv_ddim_blurjpeg0.5.pt",
+    "load_extr_nor_trans": "",
+    "load_extr_adv_trans": "", 
+    "load_json": ""
+}

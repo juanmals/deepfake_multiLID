@@ -1,0 +1,10 @@
+{
+    "dataset": "stablediffv21_laion768",
+    "mode": "adv",
+    "bs": 1,
+    "max_nr": 10000,
+    "fileformat": [".jpg"],
+    "save_gen_nor": "",
+    "save_gen_adv": "adv_prompt.pt",
+    "load_json": "configs/gen/stablediffv2/adv_stablediffv2"
+}

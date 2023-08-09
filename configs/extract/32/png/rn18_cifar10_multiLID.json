@@ -1,0 +1,14 @@
+{
+    "dataset": "cifar10",
+    "extract": "wb-multiLID",
+    "mode": "nor",
+    "nrsamples": 2000,
+    "model": "rn18",
+    "layers": ["4_conv2_2", "4_conv2_1", "3_conv2_2", "3_conv2_1", "2_conv2_2", "2_conv2_1", "1_conv2_2", "1_conv2_1"],
+    "pretrained": "",
+    "load_gen_nor": "nor_train_png.pt",
+    "load_gen_adv": "adv_ddpm_png.pt",
+    "save_extr_nor": "nor_train_png.pt",
+    "save_extr_adv": "adv_ddpm_png.pt",
+    "load_json": ""
+}

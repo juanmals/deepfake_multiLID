@@ -1,0 +1,9 @@
+{
+    "dataset": "celebaHQ128",
+    "mode": "adv",
+    "bs": 50,
+    "max_nr": 2000,
+    "save_gen_nor": "",
+    "save_gen_adv": "adv_ddpm.pt",
+    "load_json": "configs/gen/128/adv_ddpm_celebaHQ128.json"
+}
