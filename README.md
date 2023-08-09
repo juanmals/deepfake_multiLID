@@ -52,12 +52,17 @@ The pipeline works in 3 steps: Generate data, extract features, and detect synth
 
 #### Create Dataset
 
-In the folder `configs/scripts` you will find different scripts for running the datasets, i.e. I select the `cifake.sh`.
+In the folder `configs/scripts` you will find different scripts for running the datasets, i.e. I select the `cifake.sh`. 
 
 ```
 python gen.py --load_json cifake/nor_cifake.json # normal files
 python gen.py --load_json cifake/adv_cifake.json # adversarial / synthatic data
 ```
+Both scripts, save the CiFake dataset in `.pt` format. In case, you want to have images saved in a folder in `.png` or `.jpg` format then I suggest taking a look at this `configs/gen/256/adv_ddpm_ema_lsun-bedroom256.json`, which saves the images as png format. 
+
+If you want to convert `.pt` to `.png` then take a look at this script `saveaspng.py`.
+If you want to convert `.png` to `.pt` then take a look at this script `pngtotorch.py`.
+
 
 #### Extract Features
 
