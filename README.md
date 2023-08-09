@@ -2,9 +2,7 @@
 
 <b>Peter Lorenz, Ricard Durall, and Janis Keuper</b>
 
-[[Paper](https://arxiv.org/pdf/2307.02347.pdf)]
-
-Please cite:
+Please cite our [[paper](https://arxiv.org/pdf/2307.02347.pdf)]:
 
 ```
 @article{
