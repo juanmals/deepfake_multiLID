@@ -1,1 +1,0 @@
-python gen.py --load_json 1024/adv_ddpm_celebaHQ.json

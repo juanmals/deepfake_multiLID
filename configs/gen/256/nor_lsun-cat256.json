@@ -1,9 +1,0 @@
-{
-    "dataset": "lsun-cat256",
-    "mode": "nor",
-    "bs": 1,
-    "max_nr": 2000,
-    "save_gen_nor": "nor_train_png",
-    "save_gen_adv": "",
-    "load_json": "configs/gen/256/nor_lsun-cat256.json"
-}

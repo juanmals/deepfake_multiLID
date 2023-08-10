@@ -1,9 +1,0 @@
-{
-    "dataset": "celebaHQ256",
-    "mode": "nor",
-    "bs": 2000,
-    "max_nr": 2000,
-    "save_gen_nor": "nor_train_haircolor.pt",
-    "save_gen_adv": "",
-    "load_json": "configs/gen/256/nor_celebaHQ256.json"
-}

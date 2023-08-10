@@ -1,9 +1,0 @@
-{
-    "dataset": "butterflies128",
-    "mode": "nor",
-    "bs": 1000,
-    "max_nr": 1000,
-    "save_gen_nor": "nor_train.pt",
-    "save_gen_adv": "",
-    "load_json": "configs/gen/128/nor_butterflies128.json"
-}

@@ -1,9 +1,0 @@
-{
-    "dataset": "ffhq1024",
-    "mode": "adv",
-    "bs": 10,
-    "max_nr": 1000,
-    "save_gen_nor": "",
-    "save_gen_adv": "adv_ncsnpp.pt",
-    "load_json": "configs/gen/1024/adv_ncsnpp_ffhq1024.json"
-}

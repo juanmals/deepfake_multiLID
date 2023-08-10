@@ -1,9 +1,0 @@
-{
-    "dataset": "af-all",
-    "mode": "adv",
-    "bs": 50,
-    "max_nr": 2000,
-    "save_gen_nor": "",
-    "save_gen_adv": "adv_af-all_2000_csv.pt",
-    "load_json": "configs/gen/artifact_csv/adv_af-all_2000.json"
-}

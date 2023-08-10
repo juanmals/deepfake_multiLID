@@ -1,9 +1,0 @@
-{
-    "dataset": "af-bedroom",
-    "mode": "nor",
-    "bs": 50,
-    "max_nr": 768,
-    "save_gen_nor": "nor_af-bedroom.pt",
-    "save_gen_adv": "",
-    "load_json": "configs/gen/artifact/nor_af-bedroom.json"
-}

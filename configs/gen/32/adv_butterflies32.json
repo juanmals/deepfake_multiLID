@@ -1,8 +1,0 @@
-{
-    "dataset": "butterflies32",
-    "mode": "adv",
-    "bs": 1000,
-    "save_gen_nor": "",
-    "save_gen_adv": "adv_ddpm.pt",
-    "load_json": "configs/gen/adv_butterflies32"
-}
