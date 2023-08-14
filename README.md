@@ -81,9 +81,6 @@ python detect.py --load_json cifake/rn18_rf_cifake_multiLID.json
 
 Note that only CPU is needed.
 
-## TODO
-
-- [ ] Publish full code
 
 ## Acknowledgments
 Our code is developed based on [multiLID](https://arxiv.org/pdf/2212.06776.pdf), [DDPM](https://arxiv.org/abs/2006.11239) and [huggingface](https://huggingface.co/). 
