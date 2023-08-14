@@ -1,0 +1,14 @@
+{
+    "dataset": "lsun-church256",
+    "extract": "wb-multiLID",
+    "mode": "nor",
+    "nrsamples": 2000,
+    "model": "rn18",
+    "layers": ["layer4.1.act2", "layer4.0.act1", "layer3.1.act2", "layer3.0.act1", "layer2.1.act2", "layer2.0.act1", "layer1.1.act2", "layer1.0.act1"],
+    "pretrained": "",
+    "load_gen_nor": "nor_train_png",
+    "load_gen_adv": "adv_ddim_ema_png",
+    "save_extr_nor": "nor_ddim_ema.pt",
+    "save_extr_adv": "adv_ddim_ema.pt",
+    "load_json": ""
+}

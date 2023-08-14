@@ -1,0 +1,10 @@
+{
+    "dataset": "imagenet",
+    "mode": "adv",
+    "bs": 1,
+    "max_nr": 2000,
+    "fileformat": [".png"],
+    "save_gen_nor": "",
+    "save_gen_adv": "adv_sdv21_png",
+    "load_json": "configs/gen/adv_imagenet"
+}

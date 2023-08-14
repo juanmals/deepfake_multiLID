@@ -1,0 +1,17 @@
+{
+    "dataset": "celebaHQ256",
+    "extract": "wb-multiLID",
+    "mode": "nor",
+    "nrsamples": 2000,
+    "model": "rn18",
+    "layers": ["layer4.1.act2", "layer4.0.act1", "layer3.1.act2", "layer3.0.act1", "layer2.1.act2", "layer2.0.act1", "layer1.1.act2", "layer1.0.act1"],
+    "pretrained": "",
+    "perturb_mode": ["gaussian_blur"],
+    "perturb_size": [3],
+    "perturb_prob": 0.0,
+    "load_gen_nor": "nor_train_haircolor_png",
+    "load_gen_adv": "adv_ddpm_ema_png",
+    "save_extr_nor": "nor_ddpm_ema_gaussianblur0.0_3.pt",
+    "save_extr_adv": "adv_ddpm_ema_gaussianblur0.0_3.pt",
+    "load_json": ""
+}

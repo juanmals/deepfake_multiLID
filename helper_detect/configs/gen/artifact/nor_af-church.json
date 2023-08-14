@@ -1,0 +1,9 @@
+{
+    "dataset": "af-church",
+    "mode": "nor",
+    "bs": 50,
+    "max_nr": 128,
+    "save_gen_nor": "nor_af-church.pt",
+    "save_gen_adv": "",
+    "load_json": "configs/gen/artifact/nor_af-church.json"
+}

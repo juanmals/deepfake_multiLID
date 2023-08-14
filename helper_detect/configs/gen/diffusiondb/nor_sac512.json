@@ -1,0 +1,10 @@
+{
+    "dataset": "diffusiondb512",
+    "mode": "nor",
+    "bs": 1,
+    "max_nr": 2000,
+    "fileformat": [".jpg"],
+    "save_gen_nor": "nor_sac512_jpg",
+    "save_gen_adv": "",
+    "load_json": "configs/gen/512/adv_sac512_jpg.json"
+}

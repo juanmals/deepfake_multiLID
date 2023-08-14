@@ -1,0 +1,10 @@
+{
+    "dataset": "lsun-bedroom256",
+    "mode": "adv",
+    "bs": 1,
+    "max_nr": 5000,
+    "fileformat": [".png"],
+    "save_gen_nor": "",
+    "save_gen_adv": "adv_vqd_5k_7_png",
+    "load_json": "configs/gen/256/adv_sqd_lsun-bedroom256.json"
+}

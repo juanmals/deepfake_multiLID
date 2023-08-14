@@ -1,0 +1,8 @@
+{
+    "dataset": "cifar10",
+    "mode": "adv",
+    "bs": 1,
+    "save_gen_nor": "",
+    "save_gen_adv": "adv_ddpm_ema.pt",
+    "load_json": ""
+}

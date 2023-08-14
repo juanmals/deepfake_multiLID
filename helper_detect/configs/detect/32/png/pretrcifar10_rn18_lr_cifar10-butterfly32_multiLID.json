@@ -1,0 +1,15 @@
+{
+    "dataset": "cifar10",
+    "dataset_transfer": "butterfly32",
+    "extract": "wb-multiLID",
+    "model": "rn18",
+    "layers": ["image"],
+    "mode": "nor",
+    "clf": "lr",
+    "nrsamples": 2000,
+    "load_extr_nor": "nor_train_precifar10_png.pt",
+    "load_extr_adv": "adv_ddpm_precifar10_png.pt",
+    "load_extr_nor_trans": "nor_train_precifar10_png.pt",
+    "load_extr_adv_trans": "adv_ddpm_precifar10_png.pt", 
+    "load_json": ""
+}

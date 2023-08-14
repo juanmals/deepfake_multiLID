@@ -1,0 +1,9 @@
+{
+    "dataset": "lsun-church256",
+    "mode": "adv",
+    "bs": 10,
+    "max_nr": 2000,
+    "save_gen_nor": "",
+    "save_gen_adv": "adv_ddim_ema.pt",
+    "load_json": "configs/gen/256/adv_ddim_ema_lsun-church256.json"
+}

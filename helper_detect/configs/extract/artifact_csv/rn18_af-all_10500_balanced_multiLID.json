@@ -1,0 +1,14 @@
+{
+    "dataset": "af-all",
+    "extract": "wb-multiLID",
+    "mode": "nor",
+    "nrsamples": 10500,
+    "model": "rn18",
+    "layers": ["layer4.1.act2", "layer4.0.act1", "layer3.1.act2", "layer3.0.act1", "layer2.1.act2", "layer2.0.act1", "layer1.1.act2", "layer1.0.act1"],
+    "pretrained": "",
+    "load_gen_nor": "nor_af-all_10500_balanced_csv.pt",
+    "load_gen_adv": "adv_af-all_10500_fake_balanced_csv.pt",
+    "save_extr_nor": "nor_af-all_10500_balanced_csv.pt",
+    "save_extr_adv": "adv_af-all_10500_balanced_csv.pt",
+    "load_json": "artifact_csv_/rn18_af-all_10500_multiLID.json"
+}

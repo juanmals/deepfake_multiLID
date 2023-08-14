@@ -1,0 +1,9 @@
+{
+    "dataset": "lsun-church256",
+    "mode": "nor",
+    "bs": 1,
+    "max_nr": 2000,
+    "save_gen_nor": "nor_train.pt",
+    "save_gen_adv": "",
+    "load_json": "configs/gen/256/nor_lsun-church256.json"
+}
