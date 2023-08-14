@@ -13,7 +13,7 @@ Unlike many existing detection approaches that may only work effectively for GAN
 <img src="figs/teaser.png" width=60%>
 </p> -->
 
-## multiLID
+## Method - multiLID
 <p align="center" width="100%">
   <img src="./assets/teaser.png" alt="teaser multiLID" />
 </p>
